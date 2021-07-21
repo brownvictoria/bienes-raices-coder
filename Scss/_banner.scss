@@ -1,0 +1,58 @@
+section.banner__section {
+  background-image: url(../Imgenes/encuentra.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+
+  h2.banner__titulo {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem + 1rem;
+    padding-top: 7rem;
+  }
+
+  div.banner__boton {
+    text-align: center;
+    padding-top: 0rem;
+
+    button.boton__General {
+      background-color: #2176ba;
+      border-radius: 0.4rem;
+      border: none;
+      padding: 0.3rem 0.9rem 0.6rem 0.9rem;
+
+      a {
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section.banner__section {
+    h2 {
+      display: flex;
+      justify-content: center;
+      width: 50vh;
+      margin: auto auto;
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section.banner__section {
+    h2 {
+      display: flex;
+      justify-content: center;
+      width: 50vh;
+      margin: auto auto;
+      font-size: 1.8rem;
+    }
+  }
+}

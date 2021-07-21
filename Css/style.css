@@ -1,0 +1,282 @@
+section.banner__section {
+  background-image: url(../Imgenes/encuentra.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh; }
+  section.banner__section h2.banner__titulo {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    padding-top: 7rem; }
+  section.banner__section div.banner__boton {
+    text-align: center;
+    padding-top: 0rem; }
+    section.banner__section div.banner__boton button.boton__General {
+      background-color: #2176ba;
+      border-radius: 0.4rem;
+      border: none;
+      padding: 0.3rem 0.9rem 0.6rem 0.9rem; }
+      section.banner__section div.banner__boton button.boton__General a {
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 15px;
+        font-weight: 500; }
+
+@media screen and (max-width: 480px) {
+  section.banner__section h2 {
+    display: flex;
+    justify-content: center;
+    width: 50vh;
+    margin: auto auto;
+    font-size: 1.8rem; } }
+
+@media screen and (max-width: 768px) {
+  section.banner__section h2 {
+    display: flex;
+    justify-content: center;
+    width: 50vh;
+    margin: auto auto;
+    font-size: 1.8rem; } }
+
+section {
+  margin: 5rem 0rem 5rem 0rem;
+  /*Borde tarjeta*/ }
+  section h2 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 4rem; }
+    section h2 span {
+      color: #2176ba; }
+  section div.tarjeta__borde {
+    border: #cacaca 1px solid;
+    margin-bottom: 1rem;
+    /*Cierre padre__tarjeta*/ }
+    section div.tarjeta__borde div.tarjeta__padre {
+      width: 95%;
+      justify-content: center;
+      align-items: center;
+      padding-left: 20px;
+      padding-bottom: 15px;
+      /*Cierre div.detalles__tarjeta*/
+      /*Cierre div.iconosDetalles__tarjetas*/ }
+      section div.tarjeta__borde div.tarjeta__padre div.tarjeta__titulo h3 {
+        font-size: 1.4rem;
+        padding-top: 20px;
+        padding-bottom: 10px; }
+      section div.tarjeta__borde div.tarjeta__padre div.tarjeta__detalles {
+        display: flex;
+        display: inline-flex; }
+        section div.tarjeta__borde div.tarjeta__padre div.tarjeta__detalles h4 {
+          font-family: "Montserrat", sans-serif;
+          font-size: 0.8rem;
+          color: #121212;
+          font-weight: 600;
+          padding-right: 15px; }
+      section div.tarjeta__borde div.tarjeta__padre div.tarjeta__iconosDetalles {
+        display: flex;
+        display: inline-flex;
+        align-items: flex-start;
+        padding-top: 10px; }
+        section div.tarjeta__borde div.tarjeta__padre div.tarjeta__iconosDetalles img.icono__cama--modif {
+          width: 25px;
+          height: 25px;
+          margin-right: 10px; }
+        section div.tarjeta__borde div.tarjeta__padre div.tarjeta__iconosDetalles img.icono__ducha--modif {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+          margin-left: 45px; }
+        section div.tarjeta__borde div.tarjeta__padre div.tarjeta__iconosDetalles img.icono__sup--modif {
+          width: 18px;
+          height: 20px;
+          margin-right: 10px;
+          margin-left: 18px; }
+      section div.tarjeta__borde div.tarjeta__padre div.precio__h3--modif h3 {
+        font-size: 1.4rem;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        color: #2176ba; }
+
+/*Cierre Section*/
+section.footer__section {
+  margin: 0 !important;
+  background-image: url(../Imgenes/encuentra.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  /*Cierra div.footer__grid*/ }
+  section.footer__section h2 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5rem; }
+  section.footer__section div.footer__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    /*Cierra div.footer__informacion*/ }
+    section.footer__section div.footer__grid div.footer__informacion {
+      padding-left: 15rem;
+      padding-top: 1rem;
+      /*Cierra footer__redesSociales*/ }
+      section.footer__section div.footer__grid div.footer__informacion div.footer__contacto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px; }
+        section.footer__section div.footer__grid div.footer__informacion div.footer__contacto img {
+          width: 15px; }
+        section.footer__section div.footer__grid div.footer__informacion div.footer__contacto p {
+          font-family: "Roboto", sans-serif;
+          font-size: 0.9rem;
+          color: #ffffff;
+          padding-left: 10px;
+          margin: 0; }
+      section.footer__section div.footer__grid div.footer__informacion div.footer__redesSociales {
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5rem; }
+        section.footer__section div.footer__grid div.footer__informacion div.footer__redesSociales div {
+          background-color: #d6d6d633;
+          padding: 10px;
+          margin-left: 10px;
+          border-radius: 100%; }
+          section.footer__section div.footer__grid div.footer__informacion div.footer__redesSociales div img {
+            width: 25px;
+            display: flex; }
+    section.footer__section div.footer__grid div.footer__iframe {
+      display: flex;
+      display: block;
+      width: 300px;
+      padding-left: 7rem;
+      padding-bottom: 2rem; }
+
+/*Section*/
+footer div.footer__footer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /*background-color: #364e61;*/
+  background-color: #2176ba; }
+  footer div.footer__footer h5 {
+    text-align: center; }
+    footer div.footer__footer h5 a {
+      text-decoration: none !important;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 0.8rem;
+      color: #ffffff; }
+
+/*Footer*/
+.animacion__agrandar {
+  transition: all 1s; }
+
+.animacion__agrandar:hover {
+  transform: scale(1.1, 1.1); }
+
+.animacion__arriba {
+  transition: all 0.5s ease; }
+
+.animacion__arriba:hover {
+  transform: translate(0px, -5px); }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body header.tasaciones__Header {
+  background-color: #2176ba;
+  height: 25vh;
+  background-position: center;
+  background-size: cover; }
+  body header.tasaciones__Header nav.navbar {
+    padding-top: 3rem; }
+    body header.tasaciones__Header nav.navbar img {
+      width: 22rem; }
+
+body h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 500; }
+  body h2 span {
+    color: #2176ba; }
+
+body section.tasaciones__Section {
+  margin: 0 !important;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f1f1f1; }
+  body section.tasaciones__Section div.texto__Centrado {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+    body section.tasaciones__Section div.texto__Centrado p {
+      text-align: center; }
+
+body section.tasaciones__Formulario form label {
+  display: flex;
+  display: inline-flex; }
+
+body section.tasaciones__Formulario form input.boton__Formulario {
+  background-color: #2176ba;
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0.3rem 0.9rem 0.6rem 0.9rem;
+  color: white; }
+
+/*Variables*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0; }
+
+header.inicio__header {
+  background-image: url("../Imgenes/header.jpg");
+  height: 100vh;
+  background-size: cover; }
+  header.inicio__header nav.navbar {
+    padding-top: 3rem; }
+    header.inicio__header nav.navbar img {
+      width: 22rem; }
+  header.inicio__header h1.header__Titulo {
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500px;
+    padding: 24rem 0rem 0rem 1rem; }
+
+@media screen and (max-width: 480px) {
+  header {
+    background-image: url("../Imgenes/header.jpg");
+    height: 70vh !important;
+    background-size: cover;
+    padding-top: 1.5rem; }
+  header img {
+    width: 100% !important; }
+  header h1 {
+    padding: 10rem 0rem 0rem 0rem !important;
+    font-size: 1.5rem !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 100vh;
+    background-size: cover;
+    padding-top: 1.5rem; }
+  header img {
+    width: 20rem; }
+  header h1 {
+    padding: 16rem 0rem 0rem 0rem;
+    text-align: center;
+    font-size: 2.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; } }

@@ -1,0 +1,91 @@
+section.footer__section {
+  margin: 0 !important;
+  background-image: url(../Imgenes/encuentra.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh + 10vh;
+
+  h2 {
+    text-align: center;
+    color: #ffffff;
+    padding-top:5rem; 
+
+  }
+
+  div.footer__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+
+    div.footer__informacion {
+      padding-left: 15rem;
+      padding-top: 1rem;
+
+      div.footer__contacto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+
+        img {
+          width: 15px;
+        }
+        p {
+          font-family: "Roboto", sans-serif;
+          font-size: 0.9rem;
+          color: #ffffff;
+          padding-left: 10px;
+          margin: 0;
+        }
+      }
+
+      div.footer__redesSociales {
+        display: flex;
+        justify-content: center;
+        padding-top: 2.5rem;
+
+        div {
+          background-color: #d6d6d633;
+          padding: 10px;
+          margin-left: 10px;
+          border-radius: 100%;
+
+          img {
+            width: 25px;
+            display: flex;
+          }
+        }
+      } /*Cierra footer__redesSociales*/
+    } /*Cierra div.footer__informacion*/
+
+    div.footer__iframe {
+      display: flex;
+      display: block;
+      width: 300px;
+      padding-left: 7rem;
+      padding-bottom: 2rem;
+    }
+  } /*Cierra div.footer__grid*/
+} /*Section*/
+
+footer {
+  div.footer__footer {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /*background-color: #364e61;*/
+    background-color: #2176ba;
+
+
+    h5 {
+      text-align: center;
+
+      a {
+        text-decoration: none !important;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 0.8rem;
+        color: #ffffff;
+      }
+    }
+  }
+} /*Footer*/

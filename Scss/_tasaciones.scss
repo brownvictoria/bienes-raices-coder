@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  header.tasaciones__Header {
+    background-color:#2176ba;
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+
+    nav.navbar {
+      padding-top: 3rem;
+
+      img {
+        width: 22rem;
+      }
+    }
+  }
+
+  h2 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+
+    span {
+      color:#2176ba;
+    }
+  }
+
+  section.tasaciones__Section {
+    margin: 0 !important;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #f1f1f1;
+
+    div.texto__Centrado {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  section.tasaciones__Formulario {
+    form {
+      label {
+        display: flex;
+        display: inline-flex;
+      }
+
+      input.boton__Formulario {
+        background-color: #2176ba;
+        border-radius: 0.4rem;
+        border: none;
+        padding: 0.3rem 0.9rem 0.6rem 0.9rem;
+        color: white;
+      }
+    }
+  }
+}

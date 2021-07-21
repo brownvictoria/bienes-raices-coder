@@ -1,0 +1,87 @@
+@import "banner";
+@import "tarjetas";
+@import "footer";
+@import "animaciones";
+@import "tasaciones";
+
+/*Variables*/
+$colorTBlanco: #ffffff;
+$colorTNegro: #121212;
+$colorMarca: #2176ba;
+$fontMonserrat: "Montserrat", sans-serif;
+$fontRoboto: "Roboto", sans-serif;
+$espacioSecciones: 6.5rem;
+$tamañoPortada: 100vh;
+$fontsizeTitulo: 2rem;
+$fontsizeParrafo: 0.8rem;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+header.inicio__header {
+  background-image: url("../Imgenes/header.jpg");
+  height: 100vh;
+  background-size: cover;
+
+  nav.navbar {
+    padding-top: 3rem;
+
+    img {
+      width: 22rem;
+    }
+  }
+
+  h1.header__Titulo {
+    color: #ffffff;
+    font-size: 2rem;
+    font-family: $fontMonserrat;
+    font-weight: 500px;
+    padding: 24rem 0rem 0rem 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    background-image: url("../Imgenes/header.jpg");
+    height: 70vh !important;
+    background-size: cover;
+    padding-top: 1.5rem;
+  }
+
+  header img {
+    width: 100% !important;
+  }
+
+  header h1 {
+    padding: 10rem 0rem 0rem 0rem !important;
+    font-size: 1.5rem !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 100vh;
+    background-size: cover;
+    padding-top: 1.5rem;
+  }
+
+  header img {
+    width: 20rem;
+  }
+
+  header h1 {
+    padding: 16rem 0rem 0rem 0rem;
+    text-align: center;
+    font-size: 2.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

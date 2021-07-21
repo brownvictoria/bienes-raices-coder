@@ -1,0 +1,13 @@
+.animacion__agrandar {
+  transition: all 1s;
+}
+.animacion__agrandar:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.animacion__arriba {
+  transition: all 0.5s ease;
+}
+.animacion__arriba:hover {
+  transform: translate(0px, -5px);
+}
