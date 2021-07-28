@@ -28,7 +28,7 @@
     <title>Victoria Villanueva - Conctacto </title>
   </head>
   <body>
-    <header class="container-fluid">
+    <header class="container-fluid tasaciones__Header">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
            <a class="navbar-brand  col-8 justify-content-start" href="https://brownvictoria.com"
@@ -65,7 +65,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="en-alquiler.html">
-                  Alquiler
+                  Alquileres
                 </a>
               </li>
               <li class="nav-item">
@@ -80,14 +80,80 @@
           </div>
         </div>
       </nav>
-
-      <h1 class="container">
-        Contacto
-      </h1>
     </header>
 
-    <body>
+    <section class="tasaciones__Formulario">
+      <h2>Completa el <span>Formulario</span> </h2>
+      <div class="formulario__div">
+
+      <form action="">
+
+        <label class="fomularios__label" for="nombre-apellido">Nombre y Apellido</label>
+        <input class="fomularios__input" type="text" name="nombre y apellido" placeholder="Nombre y Apellido" maxlength="45" required id="nombre-apellido" />
+
+        <label class="fomularios__label" for="">Teléfono</label>
+        <input class="fomularios__input" type="number" name="telefono" placeholder="Teléfono" maxlength="15" required  />
+
+        <label class="fomularios__label" for="">Email</label>
+        <input class="fomularios__input" type="email" name="email" placeholder="Email" required />
+
+        <label class="fomularios__label" for="">Menesaje</label>
+        <input class="fomularios__input" type="texterea" name="mensaje" placeholder="Mensaje"/>
+
+        <input class="boton__Formulario" type="submit" value="Enviar formulario"/>
         
+
+      </form>
+    </div>
+    </section>
+
+    <section class="footer__section">
+      <h2>¡Hacenos tu consulta!</h2>
+
+         <div class="footer__grid">
+
+               <div class="footer__informacion">
+                   <div class="footer__contacto">
+                     <img src="./Iconos/telefono.svg" alt="Teléfono"><p>3548 576105</p>
+                   </div>
+
+                   <div class="footer__contacto">
+                     <img src="./Iconos/email.svg" alt="E-mail"><p> info@brownvictoria.com</p>
+                   </div> 
+
+                   <div class="footer__contacto">
+                     <img src="./Iconos/marcador-de-posicion.svg" alt="Ubicación"><p>La Falda, Córdoba, Argentina</p>
+                    </div>
+
+
+
+                 <div class="footer__redesSociales">
+                    <div class="animacion__arriba"> 
+                       <a href="https://facebook.com" target="_blank"><img  src="./Iconos/facebook-bienes-raices.svg" alt="Facebook"></a>
+                    </div>
+                    <div  class="animacion__arriba">
+                      <a href="https://instagram.com" target="_blank"><img src="./Iconos/instagram-bienes-raices.svg" alt="Instagram"></a> 
+                    </div>
+                    <div class="animacion__arriba">
+                     <a href="https://whatsapp.com" target="_blank"><img  src="./Iconos/whatsapp-bienes-raices.svg" alt="whatsApp"></a>
+                    </div>
+                 </div>
+               </div>
+
+               <div class="footer__iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6832.995090921678!2d-64.4902373677757!3d-31.09590055882452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d82540a7563cd%3A0x63c72e7d55a0ee1e!2sLa%20Falda%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1624395336861!5m2!1ses-419!2sar" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+               </div> 
+
+         </div>
+        </section>
+
+         <footer>
+         <div class="footer__footer">
+         <h5>
+          <a href="https://www.brownvictoria.com/" target="_blank"> © Victoria Villanueva 2021 - Todos los derechos reservados</a>
+        </h5>
+      </div>
+    </footer>
     
     <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

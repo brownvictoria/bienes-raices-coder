@@ -1,3 +1,4 @@
+/*Variables*/
 section.banner__section {
   background-image: url(../Imgenes/encuentra.jpg);
   background-size: cover;
@@ -40,20 +41,22 @@ section.banner__section {
     margin: auto auto;
     font-size: 1.8rem; } }
 
+/*Variables*/
 section {
-  margin: 5rem 0rem 5rem 0rem;
+  /* margin: 5rem 0rem 5rem 0rem;*/
   /*Borde tarjeta*/ }
   section h2 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 4rem; }
+    margin-bottom: 4rem;
+    padding-top: 60px; }
     section h2 span {
       color: #2176ba; }
   section div.tarjeta__borde {
     border: #cacaca 1px solid;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     /*Cierre padre__tarjeta*/ }
     section div.tarjeta__borde div.tarjeta__padre {
       width: 95%;
@@ -102,12 +105,14 @@ section {
         color: #2176ba; }
 
 /*Cierre Section*/
+/*Variables*/
 section.footer__section {
   margin: 0 !important;
   background-image: url(../Imgenes/encuentra.jpg);
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 30%;
+  /*Operaciones con Sass % - %*/
   /*Cierra div.footer__grid*/ }
   section.footer__section h2 {
     text-align: center;
@@ -182,54 +187,96 @@ footer div.footer__footer {
 .animacion__arriba:hover {
   transform: translate(0px, -5px); }
 
+/*Variables*/
 * {
   padding: 0;
   margin: 0; }
 
-body header.tasaciones__Header {
-  background-color: #2176ba;
-  height: 25vh;
-  background-position: center;
-  background-size: cover; }
-  body header.tasaciones__Header nav.navbar {
-    padding-top: 3rem; }
-    body header.tasaciones__Header nav.navbar img {
-      width: 22rem; }
-
-body h2 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  font-weight: 500; }
-  body h2 span {
-    color: #2176ba; }
-
-body section.tasaciones__Section {
-  margin: 0 !important;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #f1f1f1; }
-  body section.tasaciones__Section div.texto__Centrado {
-    width: 80%;
-    margin: auto;
+body {
+  /*cierra Header*/ }
+  body header.tasaciones__Header {
+    background-color: #2176ba;
+    height: 17vh;
+    background-position: center;
+    background-size: cover; }
+    body header.tasaciones__Header nav.navbar {
+      padding-top: 1.5rem; }
+      body header.tasaciones__Header nav.navbar img {
+        width: 22rem; }
+  body h2 {
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 500; }
+    body h2 span {
+      color: #2176ba; }
+  body section.tasaciones__Section {
+    background-color: #ffffff; }
+    body section.tasaciones__Section div.texto__Centrado {
+      width: 80%;
+      /*Operaciones con Sass*/
+      margin: auto; }
+  body section.tasaciones__Formulario div.formulario__div {
     display: flex;
     justify-content: center; }
-    body section.tasaciones__Section div.texto__Centrado p {
-      text-align: center; }
-
-body section.tasaciones__Formulario form label {
-  display: flex;
-  display: inline-flex; }
-
-body section.tasaciones__Formulario form input.boton__Formulario {
-  background-color: #2176ba;
-  border-radius: 0.4rem;
-  border: none;
-  padding: 0.3rem 0.9rem 0.6rem 0.9rem;
-  color: white; }
+    body section.tasaciones__Formulario div.formulario__div form label {
+      display: flex;
+      display: block;
+      margin-bottom: 8px; }
+    body section.tasaciones__Formulario div.formulario__div form input.fomularios__input {
+      width: 800px;
+      height: 40px;
+      border-style: solid;
+      border-color: #f1f1f1;
+      border-radius: 8px;
+      -webkit-appearance: none; }
+    body section.tasaciones__Formulario div.formulario__div form input.boton__Formulario {
+      display: flex;
+      display: block;
+      background-color: #2176ba;
+      border-radius: 0.4rem;
+      border: none;
+      padding: 0.3rem 0.9rem 0.3rem 0.9rem;
+      color: #ffffff;
+      margin: 2rem 0 4rem 0; }
+    body section.tasaciones__Formulario div.formulario__div form input.fomularios__input:hover {
+      border-color: #2176ba; }
+    body section.tasaciones__Formulario div.formulario__div input::-webkit-outer-spin-button,
+    body section.tasaciones__Formulario div.formulario__div input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0; }
 
 /*Variables*/
+section.tasaciones__Formulario div.formulario__div {
+  display: flex;
+  justify-content: center; }
+  section.tasaciones__Formulario div.formulario__div form label {
+    display: flex;
+    display: block;
+    margin-bottom: 8px; }
+  section.tasaciones__Formulario div.formulario__div form input.fomularios__input {
+    width: 800px;
+    height: 40px;
+    border-style: solid;
+    border-color: #f1f1f1;
+    border-radius: 8px;
+    -webkit-appearance: none; }
+  section.tasaciones__Formulario div.formulario__div form input.boton__Formulario {
+    display: flex;
+    display: block;
+    background-color: #2176ba;
+    border-radius: 0.4rem;
+    border: none;
+    padding: 0.3rem 0.9rem 0.3rem 0.9rem;
+    color: #ffffff;
+    margin: 2rem 0 4rem 0; }
+  section.tasaciones__Formulario div.formulario__div form input.fomularios__input:hover {
+    border-color: #2176ba; }
+  section.tasaciones__Formulario div.formulario__div input::-webkit-outer-spin-button,
+  section.tasaciones__Formulario div.formulario__div input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+
 * {
   margin: 0;
   padding: 0;
@@ -238,9 +285,10 @@ body section.tasaciones__Formulario form input.boton__Formulario {
 header.inicio__header {
   background-image: url("../Imgenes/header.jpg");
   height: 100vh;
+  /*Operaciones con Sass vh +vh*/
   background-size: cover; }
   header.inicio__header nav.navbar {
-    padding-top: 3rem; }
+    padding-top: 1.5rem; }
     header.inicio__header nav.navbar img {
       width: 22rem; }
   header.inicio__header h1.header__Titulo {
@@ -248,7 +296,7 @@ header.inicio__header {
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 500px;
-    padding: 24rem 0rem 0rem 1rem; }
+    padding: 27rem 0rem 0rem 1rem; }
 
 @media screen and (max-width: 480px) {
   header {

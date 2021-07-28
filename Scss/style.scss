@@ -3,17 +3,9 @@
 @import "footer";
 @import "animaciones";
 @import "tasaciones";
+@import "variables";
+@import "formulario";
 
-/*Variables*/
-$colorTBlanco: #ffffff;
-$colorTNegro: #121212;
-$colorMarca: #2176ba;
-$fontMonserrat: "Montserrat", sans-serif;
-$fontRoboto: "Roboto", sans-serif;
-$espacioSecciones: 6.5rem;
-$tamañoPortada: 100vh;
-$fontsizeTitulo: 2rem;
-$fontsizeParrafo: 0.8rem;
 
 * {
   margin: 0;
@@ -23,11 +15,11 @@ $fontsizeParrafo: 0.8rem;
 
 header.inicio__header {
   background-image: url("../Imgenes/header.jpg");
-  height: 100vh;
+  height:$vh + $vh; /*Operaciones con Sass vh +vh*/
   background-size: cover;
 
   nav.navbar {
-    padding-top: 3rem;
+    padding-top: 1.5rem;
 
     img {
       width: 22rem;
@@ -39,7 +31,7 @@ header.inicio__header {
     font-size: 2rem;
     font-family: $fontMonserrat;
     font-weight: 500px;
-    padding: 24rem 0rem 0rem 1rem;
+    padding: 27rem 0rem 0rem 1rem;
   }
 }
 

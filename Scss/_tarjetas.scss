@@ -1,5 +1,8 @@
+@import "variables";
+
 section{
-  margin: 5rem 0rem 5rem 0rem;
+ /* margin: 5rem 0rem 5rem 0rem;*/
+
 
   h2{
     text-align: center;
@@ -7,6 +10,7 @@ section{
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 4rem;
+    padding-top: 60px;
 
 
     span{
@@ -16,7 +20,8 @@ section{
 
   div.tarjeta__borde {
     border: #cacaca 1px solid;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
+
     
 
   

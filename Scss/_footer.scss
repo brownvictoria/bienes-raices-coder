@@ -1,9 +1,11 @@
+@import "variables";
+
 section.footer__section {
   margin: 0 !important;
   background-image: url(../Imgenes/encuentra.jpg);
   background-size: cover;
   background-position: center;
-  height: 70vh + 10vh;
+  height: $width - $restaPorcentual; /*Operaciones con Sass % - %*/
 
   h2 {
     text-align: center;
