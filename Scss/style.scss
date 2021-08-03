@@ -5,6 +5,7 @@
 @import "tasaciones";
 @import "variables";
 @import "formulario";
+@import "whatsapp";
 
 * {
   margin: 0;
@@ -20,7 +21,7 @@ header.inicio__header {
   nav.navbar {
     padding-top: 1.5rem;
 
-    a:hover{
+    a:hover {
       color: #e9e9e9 !important;
     }
 
@@ -29,7 +30,6 @@ header.inicio__header {
     }
   }
 
- 
   h1.header__Titulo {
     color: #ffffff;
     font-size: 2rem;
@@ -43,9 +43,8 @@ header.inicio__header {
 @media screen and (max-width: 480px) {
   header {
     background-image: url("../Imgenes/header.jpg");
-    height: 70vh !important;
+    height: 75vh !important;
     background-size: cover;
-    padding-top: 1.5rem;
   }
 
   header img {
@@ -53,12 +52,12 @@ header.inicio__header {
   }
 
   header h1 {
-    padding: 10rem 0rem 0rem 0rem !important;
     font-size: 1.5rem !important;
-    text-align: center;
+    text-align: left;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    left: 0.8rem;
+    top: 20px;
   }
 }
 
@@ -79,6 +78,5 @@ header.inicio__header {
     font-size: 2.1rem;
     display: flex;
     align-items: center;
-    justify-content: center;
   }
 }

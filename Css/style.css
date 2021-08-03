@@ -26,20 +26,24 @@ section.banner__section {
         font-weight: 500; }
 
 @media screen and (max-width: 480px) {
-  section.banner__section h2 {
-    display: flex;
-    justify-content: center;
-    width: 50vh;
-    margin: auto auto;
-    font-size: 1.8rem; } }
+  section.banner__section {
+    height: 40vh; }
+    section.banner__section h2 {
+      display: flex;
+      justify-content: center;
+      /*width: 50vh;*/
+      margin: auto auto;
+      font-size: 1.5rem !important;
+      padding: 5.5rem 0rem 2rem 0rem !important; } }
 
 @media screen and (max-width: 768px) {
   section.banner__section h2 {
     display: flex;
     justify-content: center;
-    width: 50vh;
+    width: 90%;
+    /*Para que el texto se mantega dentro de una caja*/
     margin: auto auto;
-    font-size: 1.8rem; } }
+    font-size: 1.5rem !important; } }
 
 /*Variables*/
 section {
@@ -166,7 +170,6 @@ section.footer__section {
 footer div.footer__footer {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  /*background-color: #364e61;*/
   background-color: #2176ba; }
   footer div.footer__footer h5 {
     text-align: center; }
@@ -178,6 +181,23 @@ footer div.footer__footer {
       color: #ffffff; }
 
 /*Footer*/
+@media screen and (max-width: 480px) {
+  div.footer__grid {
+    display: flex !important;
+    margin: 0 !important; }
+    div.footer__grid .footer__informacion {
+      margin: auto auto !important;
+      padding: 0rem !important;
+      display: flex;
+      display: inline-block; }
+    div.footer__grid .footer__iframe {
+      margin: auto auto !important;
+      padding: 3rem 0rem 2rem 0rem !important;
+      display: flex;
+      display: inline-block; }
+  /*Cierra footer grid*/ }
+
+/*Cierra @media 480px*/
 .animacion__agrandar {
   transition: all 1s; }
 
@@ -291,6 +311,35 @@ section.tasaciones__Formulario div.formulario__div {
     -webkit-appearance: none;
     margin: 0; }
 
+section.whatsapp__fixed {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  bottom: 1rem;
+  right: 1rem;
+  justify-content: center;
+  padding-top: 2.5rem; }
+  section.whatsapp__fixed div {
+    background-color: #00bb2d;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 100%; }
+  section.whatsapp__fixed img {
+    width: 42px;
+    display: flex;
+    position: relative;
+    left: 2px;
+    top: 1px; }
+
+@media screen and (max-width: 480px) {
+  section.whatsapp__fixed {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    bottom: 1rem;
+    right: 1rem; } }
+
+/*Cierra @media 480px*/
 * {
   margin: 0;
   padding: 0;
@@ -318,18 +367,17 @@ header.inicio__header {
 @media screen and (max-width: 480px) {
   header {
     background-image: url("../Imgenes/header.jpg");
-    height: 70vh !important;
-    background-size: cover;
-    padding-top: 1.5rem; }
+    height: 75vh !important;
+    background-size: cover; }
   header img {
     width: 100% !important; }
   header h1 {
-    padding: 10rem 0rem 0rem 0rem !important;
     font-size: 1.5rem !important;
-    text-align: center;
+    text-align: left;
     display: flex;
-    align-items: center;
-    justify-content: center; } }
+    position: absolute;
+    left: 0.8rem;
+    top: 20px; } }
 
 @media screen and (max-width: 768px) {
   header {
@@ -343,5 +391,4 @@ header.inicio__header {
     text-align: center;
     font-size: 2.1rem;
     display: flex;
-    align-items: center;
-    justify-content: center; } }
+    align-items: center; } }

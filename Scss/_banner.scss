@@ -37,12 +37,15 @@ section.banner__section {
 
 @media screen and (max-width: 480px) {
   section.banner__section {
+    height: 40vh;
+
     h2 {
       display: flex;
       justify-content: center;
-      width: 50vh;
+      /*width: 50vh;*/
       margin: auto auto;
-      font-size: 1.8rem;
+      font-size: 1.5rem !important;
+      padding: 5.5rem 0rem 2rem 0rem !important;
     }
   }
 }
@@ -52,9 +55,9 @@ section.banner__section {
     h2 {
       display: flex;
       justify-content: center;
-      width: 50vh;
+      width: 90%; /*Para que el texto se mantega dentro de una caja*/
       margin: auto auto;
-      font-size: 1.8rem;
+      font-size: 1.5rem !important;
     }
   }
 }

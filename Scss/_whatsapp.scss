@@ -1,0 +1,34 @@
+section.whatsapp__fixed {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  bottom: 1rem;
+  right: 1rem;
+  justify-content: center;
+  padding-top: 2.5rem;
+
+  div {
+    background-color: #00bb2d;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 100%;
+  }
+
+  img {
+    width: 42px;
+    display: flex;
+    position: relative;
+    left: 2px;
+    top: 1px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section.whatsapp__fixed {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    bottom: 1rem;
+    right: 1rem;
+  }
+} /*Cierra @media 480px*/
