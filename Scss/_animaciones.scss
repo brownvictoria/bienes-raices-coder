@@ -1,13 +1,35 @@
+
+/*Animación Agrandar*/
 .animacion__agrandar {
   transition: all 1s;
 }
 .animacion__agrandar:hover {
   transform: scale(1.1, 1.1);
 }
-
+ 
+/*Animación Arriba*/
 .animacion__arriba {
   transition: all 0.5s ease;
 }
 .animacion__arriba:hover {
   transform: translate(0px, -5px);
+}
+
+/*Animación de entrada Slider-Derecho */
+.animacion__slider {
+  animation-duration: 2s;
+  transition:all 2s ease;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }

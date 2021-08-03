@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Variables*/
 section.banner__section {
   background-image: url(../Imgenes/encuentra.jpg);
@@ -182,6 +183,10 @@ footer div.footer__footer {
 
 /*Footer*/
 @media screen and (max-width: 480px) {
+  h2.titulo__footer {
+    width: 90%;
+    margin: auto auto;
+    padding-bottom: 3rem; }
   div.footer__grid {
     display: flex !important;
     margin: 0 !important; }
@@ -198,17 +203,33 @@ footer div.footer__footer {
   /*Cierra footer grid*/ }
 
 /*Cierra @media 480px*/
+/*Animación Agrandar*/
 .animacion__agrandar {
   transition: all 1s; }
 
 .animacion__agrandar:hover {
   transform: scale(1.1, 1.1); }
 
+/*Animación Arriba*/
 .animacion__arriba {
   transition: all 0.5s ease; }
 
 .animacion__arriba:hover {
   transform: translate(0px, -5px); }
+
+/*Animación de entrada Slider-Derecho */
+.animacion__slider {
+  animation-duration: 2s;
+  transition: all 2s ease;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+    width: 100%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
 
 /*Variables*/
 * {
