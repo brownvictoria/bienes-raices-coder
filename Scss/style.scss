@@ -6,7 +6,6 @@
 @import "variables";
 @import "formulario";
 
-
 * {
   margin: 0;
   padding: 0;
@@ -15,23 +14,29 @@
 
 header.inicio__header {
   background-image: url("../Imgenes/header.jpg");
-  height:$vh + $vh; /*Operaciones con Sass vh +vh*/
+  height: $vh + $vh; /*Operaciones con Sass vh +vh*/
   background-size: cover;
 
   nav.navbar {
     padding-top: 1.5rem;
+
+    a:hover{
+      color: #e9e9e9 !important;
+    }
 
     img {
       width: 22rem;
     }
   }
 
+ 
   h1.header__Titulo {
     color: #ffffff;
     font-size: 2rem;
     font-family: $fontMonserrat;
     font-weight: 500px;
-    padding: 27rem 0rem 0rem 1rem;
+    padding: 22rem 0rem 0rem 1rem;
+    text-align: left !important;
   }
 }
 

@@ -59,13 +59,16 @@ section {
     margin-bottom: 4rem;
     /*Cierre padre__tarjeta*/ }
     section div.tarjeta__borde div.tarjeta__padre {
-      width: 95%;
+      /*width: 50% + 45%;*/
       justify-content: center;
       align-items: center;
       padding-left: 20px;
       padding-bottom: 15px;
       /*Cierre div.detalles__tarjeta*/
       /*Cierre div.iconosDetalles__tarjetas*/ }
+      section div.tarjeta__borde div.tarjeta__padre .tarjeta__padre {
+        width: 90%;
+        padding-bottom: 15px; }
       section div.tarjeta__borde div.tarjeta__padre div.tarjeta__titulo h3 {
         font-size: 1.4rem;
         padding-top: 20px;
@@ -201,14 +204,17 @@ body {
     background-size: cover; }
     body header.tasaciones__Header nav.navbar {
       padding-top: 1.5rem; }
+      body header.tasaciones__Header nav.navbar a:hover {
+        color: #e9e9e9 !important; }
       body header.tasaciones__Header nav.navbar img {
         width: 22rem; }
-  body h2 {
+  body h1 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
-    font-weight: 500; }
-    body h2 span {
+    font-weight: 500;
+    margin: 70px 0px 70px 0px; }
+    body h1 span {
       color: #2176ba; }
   body section.tasaciones__Section {
     background-color: #ffffff; }
@@ -261,6 +267,14 @@ section.tasaciones__Formulario div.formulario__div {
     border-color: #f1f1f1;
     border-radius: 8px;
     -webkit-appearance: none; }
+  section.tasaciones__Formulario div.formulario__div form input[type="text"]::placeholder {
+    padding-left: 10px; }
+  section.tasaciones__Formulario div.formulario__div form input[type="number"]::placeholder {
+    padding-left: 10px; }
+  section.tasaciones__Formulario div.formulario__div form input[type="email"]::placeholder {
+    padding-left: 10px; }
+  section.tasaciones__Formulario div.formulario__div form input[type="texterea"]::placeholder {
+    padding-left: 10px; }
   section.tasaciones__Formulario div.formulario__div form input.boton__Formulario {
     display: flex;
     display: block;
@@ -289,6 +303,8 @@ header.inicio__header {
   background-size: cover; }
   header.inicio__header nav.navbar {
     padding-top: 1.5rem; }
+    header.inicio__header nav.navbar a:hover {
+      color: #e9e9e9 !important; }
     header.inicio__header nav.navbar img {
       width: 22rem; }
   header.inicio__header h1.header__Titulo {
@@ -296,7 +312,8 @@ header.inicio__header {
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 500px;
-    padding: 27rem 0rem 0rem 1rem; }
+    padding: 22rem 0rem 0rem 1rem;
+    text-align: left !important; }
 
 @media screen and (max-width: 480px) {
   header {

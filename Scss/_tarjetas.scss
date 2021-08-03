@@ -1,10 +1,9 @@
 @import "variables";
 
-section{
- /* margin: 5rem 0rem 5rem 0rem;*/
+section {
+  /* margin: 5rem 0rem 5rem 0rem;*/
 
-
-  h2{
+  h2 {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
@@ -12,8 +11,7 @@ section{
     margin-bottom: 4rem;
     padding-top: 60px;
 
-
-    span{
+    span {
       color: #2176ba;
     }
   }
@@ -22,75 +20,79 @@ section{
     border: #cacaca 1px solid;
     margin-bottom: 4rem;
 
-    
+    div.tarjeta__padre {
+     
 
-  
-  div.tarjeta__padre {
-    width: 50% + 45%;
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-bottom: 15px;
+      @mixin sizes($widthMixin, $widthMixindos) {
+        width:$widthMixin;
+        padding-bottom: $widthMixindos;
+     }
+     .tarjeta__padre  {
+        @include sizes(90%, 15px);
+     }
+     
 
-    div.tarjeta__titulo {
-      h3 {
-        font-size: 1.4rem;
-        padding-top: 20px;
-        padding-bottom: 10px;
+
+      /*width: 50% + 45%;*/
+      justify-content: center;
+      align-items: center;
+      padding-left: 20px;
+      padding-bottom: 15px;
+
+      div.tarjeta__titulo {
+        h3 {
+          font-size: 1.4rem;
+          padding-top: 20px;
+          padding-bottom: 10px;
+        }
       }
-    }
-    div.tarjeta__detalles {
-      display: flex;
-      display: inline-flex;
+      div.tarjeta__detalles {
+        display: flex;
+        display: inline-flex;
 
-      h4 {
-        font-family: "Montserrat", sans-serif;
-        font-size: 0.8rem;
-        color: #121212;
-        font-weight: 600;
-        padding-right: 15px;
+        h4 {
+          font-family: "Montserrat", sans-serif;
+          font-size: 0.8rem;
+          color: #121212;
+          font-weight: 600;
+          padding-right: 15px;
+        }
+      } /*Cierre div.detalles__tarjeta*/
+
+      div.tarjeta__iconosDetalles {
+        display: flex;
+        display: inline-flex;
+        align-items: flex-start;
+        padding-top: 10px;
+
+        img.icono__cama--modif {
+          width: 25px;
+          height: 25px;
+          margin-right: 10px;
+        }
+        img.icono__ducha--modif {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+          margin-left: 45px;
+        }
+
+        img.icono__sup--modif {
+          width: 18px;
+          height: 20px;
+          margin-right: 10px;
+          margin-left: 18px;
+        }
+      } /*Cierre div.iconosDetalles__tarjetas*/
+
+      div.precio__h3--modif {
+        h3 {
+          font-size: 1.4rem;
+          font-family: "Montserrat", sans-serif;
+          font-weight: 600;
+          color: #2176ba;
+        }
       }
-    } /*Cierre div.detalles__tarjeta*/
-
-    div.tarjeta__iconosDetalles{
-      display: flex;
-      display: inline-flex;
-      align-items: flex-start;
-      padding-top: 10px;
-
-      img.icono__cama--modif {
-        width: 25px;
-        height: 25px;
-        margin-right: 10px;
-        
-      }
-      img.icono__ducha--modif {
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
-        margin-left: 45px;
-      }
-      
-      img.icono__sup--modif {
-        width: 18px;
-        height: 20px;
-        margin-right: 10px;
-        margin-left: 18px;
-      }
-    } /*Cierre div.iconosDetalles__tarjetas*/
-
-    div.precio__h3--modif{
-
-        h3{
-        font-size:1.4rem;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 600;
-        color:#2176ba; }
-    } 
-
-  } /*Cierre padre__tarjeta*/
-
-} /*Borde tarjeta*/
-
+    } /*Cierre padre__tarjeta*/
+  } /*Borde tarjeta*/
 } /*Cierre Section*/
-

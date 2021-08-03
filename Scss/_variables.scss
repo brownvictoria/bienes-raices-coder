@@ -2,14 +2,17 @@
 $colorTBlanco: #ffffff;
 $colorTNegro: #121212;
 $colorMarca: #2176ba;
-$colorFondo:#f1f1f1;
+$colorFondo: #f1f1f1;
 $fontMonserrat: "Montserrat", sans-serif;
 $fontRoboto: "Roboto", sans-serif;
 $espacioSecciones: 6.5rem;
 $tamañoPortada: 100vh;
 $fontsizeTitulo: 2rem;
 $fontsizeParrafo: 0.8rem;
-$vh:50vh;
-$restaPorcentual:10%;
-$resta:10vh;
-$width:40%;
+$vh: 50vh;
+$restaPorcentual: 10%;
+$resta: 10vh;
+$width: 40%;
+
+$widthMixin: 95%;
+$widthMixindos: 15px;

@@ -12,6 +12,9 @@ body {
 
     nav.navbar {
       padding-top: 1.5rem;
+      a:hover {
+        color: #e9e9e9 !important;
+      }
 
       img {
         width: 22rem;
@@ -19,11 +22,13 @@ body {
     }
   } /*cierra Header*/
 
-  h2 {
+  h1 {
     text-align: center;
     font-family: $fontMonserrat;
     font-size: 2rem;
     font-weight: 500;
+    margin: 70px 0px 70px 0px;
+
 
     span {
       color: $colorMarca;
@@ -72,16 +77,13 @@ body {
         input.fomularios__input:hover {
           border-color: $colorMarca;
         }
+      }
 
-        
-        }
-        
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-          -webkit-appearance: none;
-          margin: 0;
-        }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
       }
     }
   }
-
+}

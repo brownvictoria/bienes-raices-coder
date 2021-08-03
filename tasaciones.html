@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Tasiona tu propiedad de manera simple y rapido.">   
+    <meta
+      name="description"
+      content="Tasiona tu propiedad de manera simple y rapido."
+    />
 
-<meta name="keywords" content="Inmobiliarias, Casas, Departamentos, Tasaciones, Venta."> 
-<link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta
+      name="keywords"
+      content="Inmobiliarias, Casas, Departamentos, Tasaciones, Venta."
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
@@ -24,29 +30,38 @@
       rel="stylesheet"
     />
 
-    <title>Victoria Villanueva - Bienes Raices - Tasaciones </title>
+    <title>Victoria Villanueva - Bienes Raices - Tasaciones</title>
   </head>
   <body>
+    <!--Header-->
+
     <header class="container-fluid tasaciones__Header">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-           <a class="navbar-brand  col-8 justify-content-start" href="https://brownvictoria.com"
-              ><img class="animacion__agrandar" src=".\Imgenes\logo-blanco.png" alt="logo-bienes-raices"
-           /></a> 
-                 <button
-               class="navbar-toggler bg-light"
-                type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-             aria-label="Toggle navigation"
-                  >
-               <span class="navbar-toggler-icon"></span>
-                </button>
+          <a
+            class="navbar-brand col-8 justify-content-start"
+            href="https://brownvictoria.com"
+            ><img
+              class="animacion__agrandar"
+              src=".\Imgenes\logo-blanco.png"
+              alt="logo-bienes-raices"
+          /></a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-
-          <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+          <div
+            class="collapse navbar-collapse justify-content-start"
+            id="navbarNav"
+          >
             <ul class="navbar-nav col-4">
               <li class="nav-item">
                 <a
@@ -81,102 +96,164 @@
       </nav>
     </header>
 
+    <!-- Información-->
+
     <section class="tasaciones__Section">
-      <h2>¿Estás buscando <span>Tasionar</span> tu propiedad?</h2>
+      <h1>¿Estás buscando <span>Tasionar</span> tu propiedad?</h1>
       <div class="texto__Centrado">
-      <p>Maure Inmobiliaria  realiza asesoramiento profesional con el objetivo que usted pueda tomar mejores decisiones ya sea al vender o alquilar su inmueble. Solicite tasación y uno  de los titulares de la empresa tomarán contacto directo con las características propias del inmueble, las evaluará y le informará sobre su valor teniendo en cuenta los valores de mercado actuales de propiedades comparables. Existe una gran disparidad en los valores de publicación y valores de cierre luego de la devaluación de mayo 2018, por lo tanto es importante tener en cuenta esta información a la hora de valuar la propiedad.
-        Entre los factores más importantes para determinar el valor de un inmueble, además de los metros cuadrados y la antigüedad y la ubicación del edificio,  se encuentran la luminosidad y el estado en que se encuentre.
-        En este momento el nivel de oferta de inmuebles en venta en Buenos Aires es record y las ventas bajísimas como refleja el siguiente gráfico. Quien quiera vender un inmueble hoy necesita más que nunca de un análisis profundo de la propiedad y la competencia que esta va a enfrentar en el mercado.
-        Lo asesoramos sin cargo, contáctenos y solicite nuestro último informe de mercado.
+        <p>
+          Maure Inmobiliaria realiza asesoramiento profesional con el objetivo
+          que usted pueda tomar mejores decisiones ya sea al vender o alquilar
+          su inmueble. Solicite tasación y uno de los titulares de la empresa
+          tomarán contacto directo con las características propias del inmueble,
+          las evaluará y le informará sobre su valor teniendo en cuenta los
+          valores de mercado actuales de propiedades comparables. Existe una
+          gran disparidad en los valores de publicación y valores de cierre
+          luego de la devaluación de mayo 2018, por lo tanto es importante tener
+          en cuenta esta información a la hora de valuar la propiedad. Entre los
+          factores más importantes para determinar el valor de un inmueble,
+          además de los metros cuadrados y la antigüedad y la ubicación del
+          edificio, se encuentran la luminosidad y el estado en que se
+          encuentre. En este momento el nivel de oferta de inmuebles en venta en
+          Buenos Aires es record y las ventas bajísimas como refleja el
+          siguiente gráfico. Quien quiera vender un inmueble hoy necesita más
+          que nunca de un análisis profundo de la propiedad y la competencia que
+          esta va a enfrentar en el mercado. Lo asesoramos sin cargo,
+          contáctenos y solicite nuestro último informe de mercado.
         </p>
       </div>
     </section>
-        
 
+    <!-- Formulario-->
 
     <section class="tasaciones__Formulario">
-      <h2>Completa el <span>Formulario</span> </h2>
+      <h2>Completa el <span>Formulario</span></h2>
       <div class="formulario__div">
+        <form action="">
+          <label class="fomularios__label" for="nombre-apellido"
+            >Nombre y Apellido</label
+          >
+          <input
+            class="fomularios__input"
+            type="text"
+            name="nombre y apellido"
+            placeholder="Nombre y Apellido"
+            maxlength="45"
+            required
+            id="nombre-apellido"
+          />
 
-      <form action="">
+          <label class="fomularios__label" for="">Teléfono</label>
+          <input
+            class="fomularios__input"
+            type="number"
+            name="telefono"
+            placeholder="Teléfono"
+            maxlength="15"
+            required
+          />
 
-        <label class="fomularios__label" for="nombre-apellido">Nombre y Apellido</label>
-        <input class="fomularios__input" type="text" name="nombre y apellido" placeholder="Nombre y Apellido" maxlength="45" required id="nombre-apellido" />
+          <label class="fomularios__label" for="">Email</label>
+          <input
+            class="fomularios__input"
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
 
-        <label class="fomularios__label" for="">Teléfono</label>
-        <input class="fomularios__input" type="number" name="telefono" placeholder="Teléfono" maxlength="15" required  />
+          <label class="fomularios__label" for="">Menesaje</label>
+          <input
+            class="fomularios__input"
+            type="texterea"
+            name="mensaje"
+            placeholder="Mensaje"
+          />
 
-        <label class="fomularios__label" for="">Email</label>
-        <input class="fomularios__input" type="email" name="email" placeholder="Email" required />
-
-        <label class="fomularios__label" for="">Menesaje</label>
-        <input class="fomularios__input" type="texterea" name="mensaje" placeholder="Mensaje"/>
-
-        <input class="boton__Formulario" type="submit" value="Enviar formulario"/>
-        
-
-      </form>
-    </div>
+          <input
+            class="boton__Formulario animacion__agrandar"
+            type="submit"
+            value="Enviar formulario"
+          />
+        </form>
+      </div>
     </section>
-
+    <!--Footer-->
     <section class="footer__section">
       <h2>¡Hacenos tu consulta!</h2>
 
-         <div class="footer__grid">
+      <div class="footer__grid">
+        <div class="footer__informacion">
+          <div class="footer__contacto">
+            <img src="./Iconos/telefono.svg" alt="Teléfono" />
+            <p>3548 576105</p>
+          </div>
 
-               <div class="footer__informacion">
-                   <div class="footer__contacto">
-                     <img src="./Iconos/telefono.svg" alt="Teléfono"><p>3548 576105</p>
-                   </div>
+          <div class="footer__contacto">
+            <img src="./Iconos/email.svg" alt="E-mail" />
+            <p>info@brownvictoria.com</p>
+          </div>
 
-                   <div class="footer__contacto">
-                     <img src="./Iconos/email.svg" alt="E-mail"><p> info@brownvictoria.com</p>
-                   </div> 
+          <div class="footer__contacto">
+            <img src="./Iconos/marcador-de-posicion.svg" alt="Ubicación" />
+            <p>La Falda, Córdoba, Argentina</p>
+          </div>
 
-                   <div class="footer__contacto">
-                     <img src="./Iconos/marcador-de-posicion.svg" alt="Ubicación"><p>La Falda, Córdoba, Argentina</p>
-                    </div>
+          <div class="footer__redesSociales">
+            <div class="animacion__arriba">
+              <a href="https://facebook.com" target="_blank"
+                ><img src="./Iconos/facebook-bienes-raices.svg" alt="Facebook"
+              /></a>
+            </div>
+            <div class="animacion__arriba">
+              <a href="https://instagram.com" target="_blank"
+                ><img
+                  src="./Iconos/instagram-bienes-raices.svg"
+                  alt="Instagram"
+              /></a>
+            </div>
+            <div class="animacion__arriba">
+              <a href="https://whatsapp.com" target="_blank"
+                ><img src="./Iconos/whatsapp-bienes-raices.svg" alt="whatsApp"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <!-- Footer-->
 
+        <div class="footer__iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6832.995090921678!2d-64.4902373677757!3d-31.09590055882452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d82540a7563cd%3A0x63c72e7d55a0ee1e!2sLa%20Falda%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1624395336861!5m2!1ses-419!2sar"
+            width="300"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- derechos Reservados-->
 
-
-                 <div class="footer__redesSociales">
-                    <div class="animacion__arriba"> 
-                       <a href="https://facebook.com" target="_blank"><img  src="./Iconos/facebook-bienes-raices.svg" alt="Facebook"></a>
-                    </div>
-                    <div  class="animacion__arriba">
-                      <a href="https://instagram.com" target="_blank"><img src="./Iconos/instagram-bienes-raices.svg" alt="Instagram"></a> 
-                    </div>
-                    <div class="animacion__arriba">
-                     <a href="https://whatsapp.com" target="_blank"><img  src="./Iconos/whatsapp-bienes-raices.svg" alt="whatsApp"></a>
-                    </div>
-                 </div>
-               </div>
-
-               <div class="footer__iframe">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6832.995090921678!2d-64.4902373677757!3d-31.09590055882452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d82540a7563cd%3A0x63c72e7d55a0ee1e!2sLa%20Falda%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1624395336861!5m2!1ses-419!2sar" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-               </div> 
-
-         </div>
-        </section>
-
-         <footer>
-         <div class="footer__footer">
-         <h5>
-          <a href="https://www.brownvictoria.com/" target="_blank"> © Victoria Villanueva 2021 - Todos los derechos reservados</a>
+    <footer>
+      <div class="footer__footer">
+        <h5>
+          <a href="https://www.brownvictoria.com/" target="_blank">
+            © Victoria Villanueva 2021 - Todos los derechos reservados</a
+          >
         </h5>
       </div>
     </footer>
-    
-    <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"
-  ></script>
 
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

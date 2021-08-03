@@ -1,44 +1,58 @@
 section.tasaciones__Formulario {
-    div.formulario__div {
-      display: flex;
-      justify-content: center;
-      form {
-        label {
-          display: flex;
-          display: block;
-          margin-bottom: 8px;
-        }
+  div.formulario__div {
+    display: flex;
+    justify-content: center;
+    form {
+      label {
+        display: flex;
+        display: block;
+        margin-bottom: 8px;
+      }
 
-        input.fomularios__input {
-          width: 800px;
-          height: 40px;
-          border-style: solid;
-          border-color: $colorFondo;
-          border-radius: 8px;
-          -webkit-appearance: none;
-        }
+      input.fomularios__input {
+        width: 800px;
+        height: 40px;
+        border-style: solid;
+        border-color: $colorFondo;
+        border-radius: 8px;
+        -webkit-appearance: none;
+      }
 
-        input.boton__Formulario {
-          display: flex;
-          display: block;
-          background-color: $colorMarca;
-          border-radius: 0.4rem;
-          border: none;
-          padding: 0.3rem 0.9rem 0.3rem 0.9rem;
-          color: $colorTBlanco;
-          margin: 2rem 0 4rem 0;
-        }
-        input.fomularios__input:hover {
-          border-color: $colorMarca;
-        }
+      input[type="text"]::placeholder {
+        padding-left: 10px;
+      }
 
-        
-        }
-        
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-          -webkit-appearance: none;
-          margin: 0;
-        }
+      input[type="number"]::placeholder {
+        padding-left: 10px;
+      }
+
+      input[type="email"]::placeholder {
+        padding-left: 10px;
+      }
+
+      input[type="texterea"]::placeholder {
+        padding-left: 10px;
+      }
+
+      input.boton__Formulario {
+        display: flex;
+        display: block;
+        background-color: $colorMarca;
+        border-radius: 0.4rem;
+        border: none;
+        padding: 0.3rem 0.9rem 0.3rem 0.9rem;
+        color: $colorTBlanco;
+        margin: 2rem 0 4rem 0;
+      }
+      input.fomularios__input:hover {
+        border-color: $colorMarca;
       }
     }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+}
