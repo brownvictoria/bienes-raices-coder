@@ -360,8 +360,8 @@ header.inicio__header {
     color: #ffffff;
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500px;
-    padding: 22rem 0rem 0rem 1rem;
+    /*font-weight: 500px;*/
+    padding: 22rem 0rem 0rem 6.8rem;
     text-align: left !important; }
 
 @media screen and (max-width: 480px) {
@@ -374,10 +374,11 @@ header.inicio__header {
   header h1 {
     font-size: 1.5rem !important;
     text-align: left;
+    padding: 0rem !important;
     display: flex;
     position: absolute;
-    left: 0.8rem;
-    top: 20px; } }
+    left: 2rem;
+    top: 50%; } }
 
 @media screen and (max-width: 768px) {
   header {
