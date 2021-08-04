@@ -16,6 +16,10 @@ section {
     }
   }
 
+  
+
+
+
   div.tarjeta__borde {
     border: #cacaca 1px solid;
     margin-bottom: 4rem;
@@ -96,3 +100,14 @@ section {
     } /*Cierre padre__tarjeta*/
   } /*Borde tarjeta*/
 } /*Cierre Section*/
+@media screen and (min-width: 768px) and  (max-width: 991px) {
+
+  h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    padding-top: 5px !important;
+  }
+}

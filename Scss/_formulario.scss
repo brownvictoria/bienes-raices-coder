@@ -85,3 +85,33 @@ section.tasaciones__Formulario {
     }
   }
 }
+@media screen and (min-width: 768px) and  (max-width: 991px) {
+  .tasaciones__Formulario {
+    width: 95% !important;
+    margin: auto auto;
+
+    h2 {
+      text-align: center;
+      margin: auto auto!important;
+      font-size: 2rem;
+      margin: 20px 10px 70px 10px !important;
+   
+    }
+
+    div.formulario__div {
+
+      display: flex;
+      justify-content: center;
+      margin: auto auto;
+
+      form {
+        width: 90%;
+
+        input {
+          width: 100% !important ;
+        }
+      }
+    }
+  }
+  
+}

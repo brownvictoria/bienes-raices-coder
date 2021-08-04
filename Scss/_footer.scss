@@ -92,6 +92,7 @@ footer {
 @media screen and (max-width: 480px) {
   h2.titulo__footer {
     width: 90%;
+    font-size: 1.5rem !important;
     margin: auto auto;
     padding-bottom: 3rem;
   }
@@ -116,5 +117,32 @@ footer {
   } /*Cierra footer grid*/
 } /*Cierra @media 480px*/
 
-@media screen and (max-width: 768px) {
-}
+
+@media screen and (min-width: 768px) and  (max-width: 991px) {
+  h2.titulo__footer {
+    width: 90%;
+    font-size: 1.5rem !important;
+    margin: auto auto;
+  }
+
+  div.footer__grid {
+    display: flex !important;
+    margin: 0 !important;
+
+    .footer__informacion {
+      margin: auto auto !important;
+      padding: 0rem !important;
+      display: flex;
+      display: inline-block;
+    }
+
+    .footer__iframe {
+      margin: auto auto !important;
+      padding: 3rem 0rem 2rem 0rem !important;
+      display: flex;
+      display: inline-block;
+    }
+  } /*Cierra footer grid*/
+} /*Cierra @media 768px*/
+  
+

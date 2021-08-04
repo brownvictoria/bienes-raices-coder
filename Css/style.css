@@ -37,14 +37,15 @@ section.banner__section {
       font-size: 1.5rem !important;
       padding: 5.5rem 0rem 2rem 0rem !important; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   section.banner__section h2 {
     display: flex;
     justify-content: center;
     width: 90%;
     /*Para que el texto se mantega dentro de una caja*/
     margin: auto auto;
-    font-size: 1.5rem !important; } }
+    font-size: 1.5rem !important;
+    padding-bottom: 2rem; } }
 
 /*Variables*/
 section {
@@ -113,6 +114,15 @@ section {
         color: #2176ba; }
 
 /*Cierre Section*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    padding-top: 5px !important; } }
+
 /*Variables*/
 section.footer__section {
   margin: 0 !important;
@@ -185,6 +195,7 @@ footer div.footer__footer {
 @media screen and (max-width: 480px) {
   h2.titulo__footer {
     width: 90%;
+    font-size: 1.5rem !important;
     margin: auto auto;
     padding-bottom: 3rem; }
   div.footer__grid {
@@ -203,6 +214,27 @@ footer div.footer__footer {
   /*Cierra footer grid*/ }
 
 /*Cierra @media 480px*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  h2.titulo__footer {
+    width: 90%;
+    font-size: 1.5rem !important;
+    margin: auto auto; }
+  div.footer__grid {
+    display: flex !important;
+    margin: 0 !important; }
+    div.footer__grid .footer__informacion {
+      margin: auto auto !important;
+      padding: 0rem !important;
+      display: flex;
+      display: inline-block; }
+    div.footer__grid .footer__iframe {
+      margin: auto auto !important;
+      padding: 3rem 0rem 2rem 0rem !important;
+      display: flex;
+      display: inline-block; }
+  /*Cierra footer grid*/ }
+
+/*Cierra @media 768px*/
 /*Animación Agrandar*/
 .animacion__agrandar {
   transition: all 1s; }
@@ -249,13 +281,13 @@ body {
         color: #e9e9e9 !important; }
       body header.tasaciones__Header nav.navbar img {
         width: 22rem; }
-  body h1 {
+  body h1.titulo__tasaciones {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     font-weight: 500;
     margin: 70px 0px 70px 0px; }
-    body h1 span {
+    body h1.titulo__tasaciones span {
       color: #2176ba; }
   body section.tasaciones__Section {
     background-color: #ffffff; }
@@ -312,6 +344,26 @@ body {
     text-align: center;
     margin: auto auto !important;
     font-size: 1.5rem !important;
+    margin: 70px 10px 70px 10px !important; } }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  header.tasaciones__Header {
+    background-image: none;
+    background-color: #2176ba !important;
+    height: 20vh !important;
+    background-position: center;
+    background-size: cover; }
+    header.tasaciones__Header nav.navbar {
+      padding-top: 0.0rem !important; }
+      header.tasaciones__Header nav.navbar a:hover {
+        color: #e9e9e9 !important; }
+      header.tasaciones__Header nav.navbar img {
+        width: 22rem; }
+  /*cierra Header*/
+  h1 {
+    text-align: center;
+    margin: auto auto !important;
+    font-size: 2rem !important;
     margin: 70px 10px 70px 10px !important; } }
 
 /*Variables*/
@@ -371,40 +423,24 @@ section.tasaciones__Formulario div.formulario__div {
         .tasaciones__Formulario div.formulario__div form input {
           width: 100% !important; } }
 
-section.whatsapp__fixed {
-  display: flex;
-  position: fixed;
-  z-index: 1;
-  bottom: 1rem;
-  right: 1rem;
-  justify-content: center;
-  padding-top: 2.5rem; }
-  section.whatsapp__fixed div {
-    background-color: #00bb2d;
-    padding: 10px;
-    margin-left: 10px;
-    border-radius: 100%; }
-  section.whatsapp__fixed img {
-    width: 42px;
-    display: flex;
-    position: relative;
-    left: 2px;
-    top: 1px; }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .tasaciones__Formulario {
+    width: 95% !important;
+    margin: auto auto; }
+    .tasaciones__Formulario h2 {
+      text-align: center;
+      margin: auto auto !important;
+      font-size: 2rem;
+      margin: 20px 10px 70px 10px !important; }
+    .tasaciones__Formulario div.formulario__div {
+      display: flex;
+      justify-content: center;
+      margin: auto auto; }
+      .tasaciones__Formulario div.formulario__div form {
+        width: 90%; }
+        .tasaciones__Formulario div.formulario__div form input {
+          width: 100% !important; } }
 
-@media screen and (max-width: 480px) {
-  section.whatsapp__fixed {
-    display: flex;
-    position: fixed;
-    z-index: 1;
-    bottom: 1rem;
-    right: 1rem; }
-    section.whatsapp__fixed div {
-      padding: 7px;
-      margin-left: 7px; }
-      section.whatsapp__fixed div img {
-        width: 24px; } }
-
-/*Cierra @media 480px*/
 * {
   margin: 0;
   padding: 0;
@@ -429,14 +465,14 @@ header.inicio__header {
     padding: 22rem 0rem 0rem 6.8rem;
     text-align: left !important; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .fondo__menu {
     background-color: #161616;
     margin-top: 1rem;
     padding-left: 2rem;
     position: absolute;
-    width: 106%;
-    max-width: 106%;
+    width: 110%;
+    max-width: 110%;
     left: -12px;
     top: 64px;
     z-index: 1000; }
@@ -459,16 +495,33 @@ header.inicio__header {
     left: 2rem;
     top: 53%; } }
 
-@media screen and (max-width: 768px) {
+/**
+@media (min-width: 481px) and (max-width: 767px) {
+  
+
+**/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .fondo__menu {
+    background-color: #161616;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    position: absolute;
+    width: 110%;
+    max-width: 110%;
+    left: -12px;
+    top: 64px;
+    z-index: 1000; }
   header {
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     padding-top: 1.5rem; }
   header img {
     width: 20rem; }
-  header h1 {
-    padding: 16rem 0rem 0rem 0rem;
-    text-align: center;
-    font-size: 2.1rem;
+  h1.header__Titulo {
+    font-size: 1.5rem !important;
+    text-align: left;
+    padding: 0rem !important;
     display: flex;
-    align-items: center; } }
+    position: absolute;
+    left: 3rem;
+    top: 70%; } }
