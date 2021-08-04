@@ -63,19 +63,23 @@ section.tasaciones__Formulario {
     margin: auto auto;
 
     h2 {
-      width: 80%;
+      text-align: center;
+      margin: auto auto!important;
+      font-size: 1.5rem;
+      margin: 20px 10px 70px 10px !important;
+   
     }
 
     div.formulario__div {
       display: flex;
       justify-content: center;
+      margin: auto auto;
 
       form {
-        width: 80%;
-        padding-left: 3rem;
+        width: 90%;
 
         input {
-          width: 80% !important ;
+          width: 100% !important ;
         }
       }
     }
