@@ -22,6 +22,7 @@ body {
     }
   } /*cierra Header*/
 
+
   h1 {
     text-align: center;
     font-family: $fontMonserrat;
@@ -87,3 +88,8 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+
+   
+  }

@@ -10,8 +10,8 @@ section.tasaciones__Formulario {
       }
 
       input.fomularios__input {
-        width: 800px;
-        height: 40px;
+        width: 80%;
+        height: 60%;
         border-style: solid;
         border-color: $colorFondo;
         border-radius: 8px;
@@ -53,6 +53,31 @@ section.tasaciones__Formulario {
     input::-webkit-inner-spin-button {
       -webkit-appearance: none;
       margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tasaciones__Formulario {
+    width: 95% !important;
+    margin: auto auto;
+
+    h2 {
+      width: 80%;
+    }
+
+    div.formulario__div {
+      display: flex;
+      justify-content: center;
+
+      form {
+        width: 80%;
+        padding-left: 3rem;
+
+        input {
+          width: 80% !important ;
+        }
+      }
     }
   }
 }
