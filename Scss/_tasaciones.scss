@@ -92,15 +92,16 @@ body {
 
 @media screen and (max-width: 480px) {
 
+  
   header.tasaciones__Header {
     background-image: none;
     background-color: $colorMarca !important;
-    height: 14.5vh !important;
+    height: 13vh !important;
     background-position: center;
     background-size: cover;
 
     nav.navbar {
-      padding-top:2rem !important;
+      padding-top: 2rem !important;
       a:hover {
         color: #e9e9e9 !important;
       }
@@ -122,6 +123,8 @@ body {
 
 
 @media screen and (min-width: 768px) and  (max-width: 991px) {
+
+  
 
   header.tasaciones__Header {
     background-image: none;

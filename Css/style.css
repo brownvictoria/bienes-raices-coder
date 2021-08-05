@@ -330,7 +330,7 @@ body {
   header.tasaciones__Header {
     background-image: none;
     background-color: #2176ba !important;
-    height: 14.5vh !important;
+    height: 13vh !important;
     background-position: center;
     background-size: cover; }
     header.tasaciones__Header nav.navbar {
@@ -461,6 +461,7 @@ header.inicio__header {
     color: #ffffff;
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
+    text-align: left !important;
     position: absolute;
     left: 7.5rem;
     top: 83%; }
@@ -490,15 +491,13 @@ header.inicio__header {
     font-size: 1.5rem !important;
     text-align: left;
     padding: 0rem !important;
-    display: flex;
     position: absolute;
-    left: 2rem;
-    top: 53%; } }
+    left: 2rem !important;
+    top: 53% !important; } }
 
 /**
 @media (min-width: 481px) and (max-width: 767px) {
   
-
 **/
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .fondo__menu {
@@ -506,9 +505,9 @@ header.inicio__header {
     margin-top: 1rem;
     padding-left: 2rem;
     position: absolute;
-    width: 100%;
-    max-width: 100%;
-    /*left: -12px;*/
+    width: 110%;
+    max-width: 110%;
+    left: -12px;
     top: 64px;
     z-index: 1000; }
   header {
