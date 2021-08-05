@@ -240,7 +240,7 @@ footer div.footer__footer {
   transition: all 1s; }
 
 .animacion__agrandar:hover {
-  transform: scale(1.1, 1.1); }
+  transform: scale(1.03, 1.03); }
 
 /*Animación Arriba*/
 .animacion__arriba {
