@@ -48,8 +48,8 @@ header.inicio__header {
     margin-top: 1rem;
     padding-left: 2rem;
     position: absolute;
-    width: 110%;
-    max-width: 110%;
+    width: 106%;
+    max-width: 106%;
     left: -12px;
     top: 64px;
     z-index: 1000;
@@ -57,7 +57,7 @@ header.inicio__header {
   }
 
   nav.navbar {
-    padding-top: 0.5rem !important ;
+    padding-top: 2rem !important ;
 
     button.navbar-toggler.bg-light {
       color: #ffffff00 !important;
@@ -98,9 +98,9 @@ header.inicio__header {
     margin-top: 1rem;
     padding-left: 2rem;
     position: absolute;
-    width: 110%;
-    max-width: 110%;
-    left: -12px;
+    width: 100%;
+    max-width: 100%;
+    /*left: -12px;*/
     top: 64px;
     z-index: 1000;
   }
@@ -108,7 +108,7 @@ header.inicio__header {
   header {
     height: 70vh;
     background-size: cover;
-    padding-top: 1.5rem;
+    padding-top:1.5rem;
   }
 
   header img {
