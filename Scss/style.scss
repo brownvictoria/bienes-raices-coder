@@ -34,9 +34,9 @@ header.inicio__header {
     color: #ffffff;
     font-size: 2rem;
     font-family: $fontMonserrat;
-    /*font-weight: 500px;*/
-    padding: 22rem 0rem 0rem 6.8rem;
-    text-align: left !important;
+    position: absolute;
+    left: 7.5rem;
+    top: 83%;
   }
 }
 

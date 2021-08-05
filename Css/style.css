@@ -461,9 +461,9 @@ header.inicio__header {
     color: #ffffff;
     font-size: 2rem;
     font-family: "Montserrat", sans-serif;
-    /*font-weight: 500px;*/
-    padding: 22rem 0rem 0rem 6.8rem;
-    text-align: left !important; }
+    position: absolute;
+    left: 7.5rem;
+    top: 83%; }
 
 @media screen and (max-width: 767px) {
   .fondo__menu {
