@@ -51,12 +51,11 @@ section.banner__section {
 }
 
 
-
-
-
 @media screen and (min-width: 768px) and  (max-width: 991px) {
 
   section.banner__section {
+    height: 40vh !important;
+
     h2 {
       display: flex;
       justify-content: center;

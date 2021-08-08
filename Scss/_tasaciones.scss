@@ -125,6 +125,17 @@ body {
 @media screen and (min-width: 768px) and  (max-width: 991px) {
 
   
+  .fondo__menu {
+    background-color: #161616;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    position: absolute;
+    width: 103.2% !important;
+    max-width: 103.2% !important;
+    left: -12px;
+    top: 40px !important;
+    z-index: 1000;
+  }
 
   header.tasaciones__Header {
     background-image: none;
